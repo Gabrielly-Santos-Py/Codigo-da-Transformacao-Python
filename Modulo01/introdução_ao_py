@@ -1,0 +1,34 @@
+# Exemplo simples de introdução ao Python
+print("Bem-vindo ao módulo de introdução ao Python!")
+
+nome = input("Qual é o seu nome? ")
+print(f"Olá, {nome}! Seja bem-vindo ao curso de Python.")
+[14:47, 10/27/2025] Gaby: # logica.py
+
+# Exemplo de estruturas condicionais e loops
+
+numero = int(input("Digite um número: "))
+
+if numero % 2 == 0:
+    print("O número é par.")
+else:
+    print("O número é ímpar.")
+
+# Loop simples
+for i in range(5):
+    print(f"Contagem: {i}")
+[14:47, 10/27/2025] Gaby: # estruturas_dados.py
+
+# Exemplo de estruturas de dados em Python
+
+# Lista
+frutas = ["maçã", "banana", "uva"]
+print("Lista de frutas:", frutas)
+
+# Dicionário
+aluno = {"nome": "Maria", "idade": 20, "curso": "Python"}
+print("Dados do aluno:", aluno)
+
+# Tupla
+coordenadas = (10, 20)
+print("Coordenadas:", coordenadas)

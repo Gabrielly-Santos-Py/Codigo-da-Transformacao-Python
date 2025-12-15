@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # carro_base.py
 
 class Carro:
@@ -35,3 +36,19 @@ meu_carro.exibir_info()
 print("\n--- Exibição como String (__str__) ---")
 # Usando print() que invoca automaticamente __str__
 print(meu_carro)
+=======
+class Carro:
+	"""
+	Classe base que representa um carro genérico.
+	"""
+
+	def __init__(self, marca, modelo):
+		self.marca = marca
+		self.modelo = modelo
+
+	def exibir_info(self):
+		"""Exibe informações básicas do carro."""
+		print(f"Marca: {self.marca}")
+		print(f"Modelo: {self.modelo}")
+
+>>>>>>> 8e4fb37646846699e5cc1a1a14ea2f015cee3fde
